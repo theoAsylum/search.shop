@@ -1,0 +1,30 @@
+.b-where__search_right{
+    display: inline-flex;
+    float: right;
+}
+.b-where__search-list{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+.search-list{
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    border-top: 1px solid #F0F8F7;
+    box-shadow: 0 0 18px -6px rgba(0,0,0,0.75);
+}
+.search-list__item{
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    vertical-align: middle;
+}
+.search-list__item-selected{
+    color: #23527c;
+    background-color: #F0F8F7;
+}
+.search-list__text{
+    margin: 0;
+    padding: 10px 20px;
+}
